@@ -6,6 +6,8 @@ import {Navbar ,Header, Products, Footer } from './container';
 
 
 import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 import './App.css';
 
