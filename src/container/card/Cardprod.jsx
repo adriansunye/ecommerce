@@ -1,19 +1,29 @@
 import React from "react";
-
-
+import "./cardprod.css"
 
 
 
 const Card = () => {
     return (
-        <div>
+        <div className="container">
             <div className="card" >
-                <img src="" className="card-img-top" alt="..."/>
+                <img src="/images/garrafa5L.png" className="card-img" />
                     
                     <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" className="btn btn-primary">Comprar</a>
+                        <h5 className="card-title">Card description</h5>
+                        <p className="card-text">1 ud.</p>
+                        <p className="card-text">6.5e/ud.</p>
+                        <a href="#" className="btn">Añadir</a>
+                    </div>
+            </div>
+            <div className="card" >
+                <img src="/images/garrafa5L.png" className="card-img" />
+                    
+                    <div className="card-body">
+                        <h5 className="card-title">Card description</h5>
+                        <p className="card-text">1 ud.</p>
+                        <p className="card-text">6.5e/ud.</p>
+                        <a href="#" className="btn">Añadir</a>
                     </div>
             </div>
         </div>
