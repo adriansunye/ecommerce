@@ -1,15 +1,14 @@
-import './App.css';
 
-import { Card } from './container';
+import Cardprod from './container/card/Cardprod';
 
-import React from 'react';
+
 
 const App = () => {
   return (
     <div className="app">
-      <Card/>
-      <h1></h1>
       
+      <Cardprod/>
+       
     </div>
   );
 }
