@@ -10,9 +10,11 @@
  flex-direction: column;
  justify-content: center;
  align-items: center;
- 
+ position: relative;
 }
-
+.TextIntro{
+    font-size:60px;
+}
 h1::first-letter{
     font-size: 5rem;
     color: #CA2128;
@@ -21,14 +23,16 @@ h1::first-letter{
 .ParagraphWell{
     font-family: 'Source Sans Pro';
     font-size: 30px;
+    max-inline-size: fit-content;
 }
 .TextGeneral{
     display: flex;
     flex-direction: column;
     border-radius: 30px;
-    background:rgba(255, 255, 255, 0.458);
-   
+    background:rgba(255, 255, 255, 0.723);
+    padding: 0px 20px 0px 20px;
     text-align: center;
+    margin: 26px 0px 105px 0px;
 }
 
 .button2 {
