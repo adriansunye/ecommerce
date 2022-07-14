@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
 .container {
     height: 100vh;
     width: 100vh;
@@ -6,18 +8,28 @@
     align-content: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 1vh;
+    font-family: 'Inter', sans-serif;
 }
 
 .card {
     width: 20vh;
-    height: 28vh;
-    border: 0.1vh solid white;
+    height: 30vh;
+    border: 0.1vh solid rgb(249, 245, 245);
+    
 }
 
 img {
+    height: 14vh;
     width: 10vh;
-    height: 12vh;
+    
+}
+.row-img{
+    width: 20vh;
+    display: flex;
+    align-self: center;
     border: 0.1vh solid rgb(178, 178, 178);
+    
 }
 
 .card-title {
