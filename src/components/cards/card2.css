@@ -2,14 +2,11 @@
 
 .container {
     font-family: 'Source Sans Pro';
-    border: 1vh solid red;
     height: 18vh;
-    width: 50vh;
+    width: 46vh;
     gap: 0vh;
     display: flex;
     flex-direction: row;
-
-
 }
 
 .cont-img {
@@ -47,7 +44,6 @@ img{
 }
 
 .cont-btn {
-    background-color: aqua;
     width: 15vh;
     height: 10vh;
     display: flex;
@@ -64,20 +60,12 @@ img{
     justify-content: center;
     gap: 2vh;
     height: 5vh;      
-    background-color: rgb(9, 7, 11);
 }
 
-a {
-    text-decoration: none;
-}
 
 .btn-1 {
     width: 6vh;
     height: 4vh;
-    /* height: 34px;
-    left: 10px;
-    top: 5px; */
-
     background: #FFFFFF;
     border: 0.2vh solid #CA2128;
     border-radius: 2vh;
@@ -86,10 +74,17 @@ a {
 .btn-2 {
     width: 6vh;
     height: 4vh;
-    /* height: 34px;
-    left: 339px;
-    top: 421px; */
-
     background: #CA2128;
     border-radius: 2vh;
+}
+.btn-add{
+    filter: invert(94%) sepia(100%) saturate(0%) hue-rotate(151deg) brightness(105%) contrast(106%);
+    width: 6vh;
+    height: 3vh;
+    margin-top: 0.5vh;
+}
+.btn-del{
+    width: 6vh;
+    height: 3.5vh;
+    filter: invert(14%) sepia(10%) saturate(100%) hue-rotate(151deg) brightness(105%) contrast(120%);
 }
