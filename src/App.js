@@ -1,5 +1,4 @@
 import './App.css';
-
 import { Header, Products, Footer } from './container';
 import { Navbar } from './components';
 
