@@ -1,69 +1,23 @@
 import React from "react";
 import "./navbar.css";
+import { MdMenu } from "react-icons/md";
+import { BsCartFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 
 const Navbar = () => {
   return (
-    <div>
-      
-      <div className="container">
-
-        <div className="card">
-          <img src="/images/garrafa5L.png" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">1 ud.</p>
-            <p className="card-text"><b>6.50e</b>/ud.</p>
-            <a href="#" class="btn">Añadir</a>
-          </div>
-        </div>
-        <div className="card">
-          <img src="/images/garrafa5L.png" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">1 ud.</p>
-            <p className="card-text"><b>6.50e</b>/ud.</p>
-            <a href="#" class="btn">Añadir</a>
-          </div>
-        </div>
-        <div className="card">
-          <img src="/images/garrafa5L.png" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">1 ud.</p>
-            <p className="card-text"><b>6.50e</b>/ud.</p>
-            <a href="#" class="btn">Añadir</a>
-          </div>
-        </div>
-        <div className="card">
-          <img src="/images/garrafa5L.png" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">1 ud.</p>
-            <p className="card-text"><b>6.50e</b>/ud.</p>
-            <a href="#" class="btn">Añadir</a>
-          </div>
-        </div>
-        <div className="card">
-          <img src="/images/garrafa5L.png" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">1 ud.</p>
-            <p className="card-text"><b>6.50e</b>/ud.</p>
-            <a href="#" class="btn">Añadir</a>
-          </div>
-        </div>
-        <div className="card">
-          <img src="/images/garrafa5L.png" className="card-img-top" alt="..." />
-          <div className="card-body">
-            <h5 className="card-title">Card title</h5>
-            <p className="card-text">1 ud.</p>
-            <p className="card-text"><b>6.50e</b>/ud.</p>
-            <a href="#" class="btn">Añadir</a>
-          </div>
-        </div>
+    <div className="navbar">
+      <MdMenu className="btn-hamb"/>
+      <input type="textcategories" />
+      <div className="cart">
+        <Link to="/cart">
+          <BsCartFill className="btn-cart"/>
+          <span>0</span>
+        </Link>
+        
       </div>
-
+      
 
     </div>
   );

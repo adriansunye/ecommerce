@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
 
 .container {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vh;
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@
 
 .card {
     width: 20vh;
-    height: 30vh;
+    height: 31vh;
     border: 0.1vh solid rgb(249, 245, 245);
     
 }
@@ -23,9 +23,10 @@ img {
     height: 14vh;
     width: 10vh;
     
+    
 }
 .row-img{
-    width: 20vh;
+    width: 15vh;
     display: flex;
     align-self: center;
     border: 0.1vh solid rgb(178, 178, 178);
@@ -63,9 +64,11 @@ a.btn {
     box-shadow: 0vh 0vh 0vh rgba(0, 0, 0, 0.25);
     border-radius: 3vh;
     width: 15vh;
+    height: 3vh;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5vh;
-    line-height: 1.3vh;
+    font-size: 1.5vh;    
     color: #CA2128;
+    text-align: center;
+    align-content: center;
 }

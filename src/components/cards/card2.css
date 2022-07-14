@@ -2,11 +2,11 @@
 
 .container {
     font-family: 'Source Sans Pro';
-    height: 18vh;
+    height: 100vh;
     width: 46vh;
-    gap: 0vh;
+    gap: 2vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;    
 }
 
 .cont-img {
