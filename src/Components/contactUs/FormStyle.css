@@ -1,0 +1,30 @@
+h1 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size-adjust: width;
+	color: #CA2128;
+	justify-content: center !important;
+}
+
+.contact-us{
+	margin: 15%;
+	justify-content: center;
+}
+
+.buttonSend{
+	background-color: #CA2128;
+	border: none;
+	font-family: sans-serif !important;
+	color: white;
+	justify-items: center;
+
+}
+
+.btn-danger{
+	background-color: #CA2128 !important;
+	margin-top: 100px !important;
+	
+}
+
+input{
+	background-color: #edededd2;
+}
