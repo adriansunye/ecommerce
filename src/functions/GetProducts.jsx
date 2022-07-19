@@ -11,7 +11,7 @@ function GetProducts(props) {
     // this useEffect will run once
     // similar to componentDidMount()
     useEffect(() => {
-        fetch("https://api.kroger.com/v1/products?filter.term="+ props.query +"&filter.locationId=01400441", {
+        fetch("https://api.kroger.com/v1/products?filter.term=milk"+ props.query +"&filter.locationId=01400441", {
             headers: {
               Authorization: "Bearer "+ <GetToken/>,
               "Cache-Control": "no-cache"
@@ -30,8 +30,8 @@ function GetProducts(props) {
             setError(error);
           }
         )
-    }, [])
-  
+    }, )
+    console.log(GetProducts)
     if (error) {
       return <div>Error: {error.message}</div>;
     } else if (!isLoaded) {
@@ -43,4 +43,4 @@ function GetProducts(props) {
     }
   }
 
-  export default GetToken;
+  export default GetProducts;

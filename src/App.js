@@ -1,13 +1,10 @@
 
-import Call from './functions/Call';
-
 
 import './App.css';
-import { Header,About, Products, Footer } from './container';
+import { Header,About, Footer } from './container';
+
 import { Navbar } from './components';
 import React from 'react';
-
-
 const App = () => {
   return (
 
@@ -16,12 +13,9 @@ const App = () => {
       <Header />
       <About/>
       <Footer/>
-      <Products/> 
-      <Call/>
+       
     </div>
-
-   
-
+    
   );
 }
 

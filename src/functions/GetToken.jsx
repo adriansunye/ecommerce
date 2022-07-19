@@ -12,7 +12,7 @@ function GetToken(props) {
       fetch("https://api.kroger.com/v1/connect/oauth2/token", {
         body: "grant_type=client_credentials&scope=" + props.scope,
         headers: {
-          Authorization: "Basic ZS1jb21tZXJjZS1jNTliZGE4NzEyY2YwYmRiYWFjNjM4ZDQ5N2QzZjM5YjExMDA5OTA4OTQ1OTM3MzgzNzU6bEE5SDFOZGdlbjd5bkUydERWTHVQOVA3OFFFQUMwdEgyeHpGMHUzUQ==",
+          Authorization: "Basic Y29tZXJzZS05ZDkwZmQyYTM0ZGIwMGM5Yjg0ZTM5YzBmMjNkOWE5MjQwNjUzMzYyNzMyOTc1ODg4MTY6T1plUGp1NFVsWmRBSUlsOVRaWmhmQktTQ1ViZlFQRXphSUdFcWYwaQ==",
           "Content-Type": "application/x-www-form-urlencoded"
         },
         method: "POST"
@@ -30,8 +30,8 @@ function GetToken(props) {
             setError(error);
           }
         )
-    }, [])
-  
+    }, )
+  console.log(GetToken)
     if (error) {
       return <div>Error: {error.message}</div>;
     } else if (!isLoaded) {
