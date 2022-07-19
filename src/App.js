@@ -11,7 +11,7 @@ const App = () => {
       <Header />
       <About/>
       <Footer/>
-      
+      <Products/>
     </div>
   );
 }
