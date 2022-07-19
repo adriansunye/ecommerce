@@ -1,21 +1,22 @@
 import {useState, useEffect} from 'react';
+import GetToken from './GetToken';
 
-function Call() {
+function GetProducts(props) {
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
     const [items, setItems] = useState([]);
-  
+    
+    
     // Note: the empty deps array [] means
     // this useEffect will run once
     // similar to componentDidMount()
     useEffect(() => {
-        fetch("https://api.kroger.com/v1/products?filter.term=milk&filter.locationId=01400441", {
-  headers: {
-    Authorization: "Bearer {{TOKEN}}",
-    "Cache-Control": "no-cache"
-  }
-})
-        .then(res => res.json())
+        fetch("https://api.kroger.com/v1/products?filter.term="+ props.query +"&filter.locationId=01400441", {
+            headers: {
+              Authorization: "Bearer "+ <GetToken/>,
+              "Cache-Control": "no-cache"
+            }
+          }).then(res => res.json())
         .then(
           (result) => {
             setIsLoaded(true);
@@ -36,16 +37,10 @@ function Call() {
     } else if (!isLoaded) {
       return <div>Loading...</div>;
     } else {
-      return (
-        <ul>
-          {items.map(item => (
-            <li key={item.id}>
-              {item.name} {item.price}
-            </li>
-          ))}
-        </ul>
+      return ( 
+        items
       );
     }
   }
 
-  export default Call;
+  export default GetToken;
