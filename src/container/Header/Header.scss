@@ -1,8 +1,9 @@
 
-.Wellcome{
+.Welcome{
  background: url('https://s.libertaddigital.com/2020/02/05/1920/1080/fit/market-shop-plant.jpg');
  background-size: cover;
  min-height:100vh;
+ //para hacer que la imagen no se mueva
  background-attachment: fixed;
  position: relative;
  display: flex;
@@ -12,7 +13,9 @@
  position: relative;
 }
 .TextIntro{
-    font-size:60px;
+  font-size: 55px;
+	font-family: var(--font-base);
+	font-weight: 600;
 }
 h1::first-letter{
     font-size: 5rem;
@@ -25,13 +28,13 @@ h1::first-letter{
     max-inline-size: fit-content;
 }
 .TextGeneral{
-    display: flex;
-    flex-direction: column;
-    border-radius: 30px;
-    background:rgba(255, 255, 255, 0.723);
-    padding: 0px 20px 0px 20px;
-    text-align: center;
-    margin: 26px 10px 160px 10px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	background:rgba(255, 255, 255, 0.723);
+	padding: 0px 20px 0px 20px;
+	text-align: center;
+	margin: 0 10px 30px 10px;
 }
 
 .button2 {
@@ -52,18 +55,18 @@ h1::first-letter{
 }
 
 .button2:hover {
-    transition: ease-in 0.7s;
-    box-shadow: inset 300px 0 0 0 rgb(255, 255, 255);
-    cursor: pointer;
-    color: rgb(11, 11, 15);
+	transition: ease-in 0.7s;
+	box-shadow: inset 300px 0 0 0 rgb(255, 255, 255);
+	cursor: pointer;
+	color: rgb(11, 11, 15);
 }
 
-.wave{
-    height: 120px;
-    overflow: hidden;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+.wave {
+	height: 120px;
+	overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 svg{
     height: 100%;

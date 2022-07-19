@@ -1,7 +1,7 @@
 .navbar {
   background-color: var(--white-color);
   border-bottom: 1px solid var(--neutral-color_1);
-  
+
   // Dar animación al toggler
   /* Remove border from toggler */
   .navbar-toggler {
@@ -70,6 +70,10 @@
     background-color: var(--primary-color);
   }
 
+  i {
+    margin-right: 10px;
+    margin-left: -10px;
+  }
 
   .navbar-brand {
     img {
@@ -81,10 +85,10 @@
     li {
       font-family: var(--font-title);
       font-style: normal;
-      font-weight: 700;
-      font-size: 18px;
+      font-weight: 600;
+      font-size: 16px;
       line-height: 27px;
-      padding: 5px 0 0 15px;
+      padding: 0 0 0 25px;
 
       a {
         color: var(--neutral-color_4);
@@ -94,6 +98,59 @@
         }
       }
     }
+
+    .dropdown-menu { 
+      max-height: 700px; overflow-y: auto; min-width: 350px !important; background-attachment: local, local, scroll, scroll; 
+    }
+
+    .dropdown-item { 
+      white-space: normal; 
+    }
+  }
+}
+
+.form-control {
+  display: block;
+  width: 110%;
+  padding: .375rem .75rem;
+  font-family: var(--font-base);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--neutral-color_1);
+  background-color: #F7F7F7;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 30px;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+  &:focus, &:active {
+    outline: 0;
+    box-shadow: none;
+    background-color: #F7F7F7;
+    border: 1px solid #d5d5d5;
+    font-family: var(--font-base);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--neutral-color_3);
+    line-height: 1.5;
+  }
+
+  &::placeholder {
+    padding-left: 5px;
+  }
+
+  @media screen and (min-width: 1100px) {
+    width: 130%;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .navbar .navbar-brand img {
+    margin-left: 0px;
   }
 }
 
