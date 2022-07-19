@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.scss';
-import Dillons from '../../../src/img/dillons.png'
+import Dillons from '../../../src/img/dillons.png';
 
 const Footer = () => {
   return (

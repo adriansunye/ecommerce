@@ -1,10 +1,9 @@
 import React from 'react';
 import './About.scss';
-import img from '../../../src/img/DSC_0171.jpeg'
+import img from '../../../src/img/DSC_0171.jpeg';
 
 const About = () => {
   return (
-    
     <div className="aboutGeneral"  >
      <div className="TextosAbout">
         <h2 className="TituloAbout"> La Historia desde 1890</h2>
@@ -12,10 +11,7 @@ const About = () => {
      </div>
      <div className="ImgFamily">
         <img className="imagenUno" src={img} alt="" /></div>
-       
     </div>
-   
-   
   );
 }
 
