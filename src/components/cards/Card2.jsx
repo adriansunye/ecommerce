@@ -6,6 +6,11 @@ import { GrAdd } from "react-icons/gr";
 const Card2 = () => {
     return (
         <div className="G-container">
+            <div>
+                <h1><b>Cart</b></h1>
+                <h7>Delivery in 08035</h7>
+                <h6><b>SORT PRODUCTS AS THEY WERE ADDED</b></h6>
+            </div>
 
             <div className="container">
                 <div className="cont-img">
@@ -18,8 +23,8 @@ const Card2 = () => {
                 <div className="cont-btn">
                     <h5 className="cont-btn-text">1 unit</h5>
                     <div className="cont-btn-click">
-                        <a href="" className="btn-1"><MdDeleteForever className="btn-del"/></a>
-                        <a href="" className="btn-2"><GrAdd className="btn-add"/></a>
+                        <a href="" className="btn-1"><MdDeleteForever className="btn-del" /></a>
+                        <a href="" className="btn-2"><GrAdd className="btn-add" /></a>
                     </div>
                 </div>
             </div>
@@ -35,8 +40,8 @@ const Card2 = () => {
                 <div className="cont-btn">
                     <h5 className="cont-btn-text">1 unit</h5>
                     <div className="cont-btn-click">
-                        <a href="" className="btn-1"><MdDeleteForever className="btn-del"/></a>
-                        <a href="" className="btn-2"><GrAdd className="btn-add"/></a>
+                        <a href="" className="btn-1"><MdDeleteForever className="btn-del" /></a>
+                        <a href="" className="btn-2"><GrAdd className="btn-add" /></a>
                     </div>
                 </div>
             </div>
@@ -52,8 +57,8 @@ const Card2 = () => {
                 <div className="cont-btn">
                     <h5 className="cont-btn-text">1 unit</h5>
                     <div className="cont-btn-click">
-                        <a href="" className="btn-1"><MdDeleteForever className="btn-del"/></a>
-                        <a href="" className="btn-2"><GrAdd className="btn-add"/></a>
+                        <a href="" className="btn-1"><MdDeleteForever className="btn-del" /></a>
+                        <a href="" className="btn-2"><GrAdd className="btn-add" /></a>
                     </div>
                 </div>
             </div>
@@ -69,8 +74,8 @@ const Card2 = () => {
                 <div className="cont-btn">
                     <h5 className="cont-btn-text">1 unit</h5>
                     <div className="cont-btn-click">
-                        <a href="" className="btn-1"><MdDeleteForever className="btn-del"/></a>
-                        <a href="" className="btn-2"><GrAdd className="btn-add"/></a>
+                        <a href="" className="btn-1"><MdDeleteForever className="btn-del" /></a>
+                        <a href="" className="btn-2"><GrAdd className="btn-add" /></a>
                     </div>
                 </div>
             </div>
@@ -86,15 +91,17 @@ const Card2 = () => {
                 <div className="cont-btn">
                     <h5 className="cont-btn-text">1 unit</h5>
                     <div className="cont-btn-click">
-                        <a href="" className="btn-1"><MdDeleteForever className="btn-del"/></a>
-                        <a href="" className="btn-2"><GrAdd className="btn-add"/></a>
+                        <a href="" className="btn-1"><MdDeleteForever className="btn-del" /></a>
+                        <a href="" className="btn-2"><GrAdd className="btn-add" /></a>
                     </div>
                 </div>
             </div>
 
-            
+
 
         </div>
+
+
 
     )
 }
