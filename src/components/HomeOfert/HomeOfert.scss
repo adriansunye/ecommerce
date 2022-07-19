@@ -1,0 +1,14 @@
+.container_ofert{
+    padding:4vh;
+}
+img{
+    max-width: 100%;
+    border-radius:1vh;
+    box-shadow:0px 0px 0.5vh black;
+}
+
+@media (min-width: 700px) {
+    .container_ofert{
+        padding:5vh 10%;
+    }
+}
