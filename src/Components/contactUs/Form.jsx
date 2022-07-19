@@ -21,7 +21,9 @@ function Form(){
   return (
     <div class="contact-us">
     <form ref={form} onSubmit={sendEmail}>
-      <h1>Atención al cliente</h1>
+      <h1 class="d-flex justify-content-center">
+        Atención al cliente
+        </h1>
       <div class="form-group">
         <label>Nombre</label>
         <input type="name" class="form-control" id="user_name" />
@@ -35,12 +37,14 @@ function Form(){
         <input type="email" class="form-control" placeholder="name@example.com"/>
       </div>  
       <div class="form-group">
-        <label>Message</label>
+        <label>Mensaje</label>
         <textarea class="form-control" rows="3"/>
-             
-       
-          <input class= "buttonSend" value="Enviar" />
-       
+        <br></br>  
+      </div>
+      <div class="form-group d-flex justify-content-center" >
+        <button  type="button" class="btn btn-danger">  
+           <input class= "buttonSend d-flex align-self-center" value="Enviar" />
+        </button>  
       </div>
     </form>
     </div>

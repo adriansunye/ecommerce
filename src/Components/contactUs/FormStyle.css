@@ -2,29 +2,31 @@ h1 {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size-adjust: width;
 	color: #CA2128;
-	justify-content: center !important;
+	
 }
 
-.contact-us{
+form{
 	margin: 15%;
-	justify-content: center;
+	justify-content: center !important;
 }
 
 .buttonSend{
 	background-color: #CA2128;
-	border: none;
 	font-family: sans-serif !important;
 	color: white;
 	justify-items: center;
+	border: none;
 
 }
 
 .btn-danger{
 	background-color: #CA2128 !important;
-	margin-top: 100px !important;
+	justify-items: center;
+	
 	
 }
 
-input{
-	background-color: #edededd2;
+.form-control{
+	background-color: #EDEDED !important;
 }
+
