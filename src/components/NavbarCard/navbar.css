@@ -7,10 +7,13 @@
 .btn-cart {
     width: 6vh;
     height: 4.5vh;
-    filter: invert(22%) sepia(46%) saturate(3878%) hue-rotate(340deg) brightness(93%) contrast(104%);
+    filter: invert(12%) sepia(96%) saturate(3878%) hue-rotate(340deg) brightness(93%) contrast(104%);
 }
 .btn-hamb {
     width: 6vh;
     height: 4.5vh;
     filter: invert(22%) sepia(46%) saturate(3878%) hue-rotate(340deg) brightness(93%) contrast(104%);
+}
+.number-cart{
+    filter: invert(12%) sepia(96%) saturate(3878%) hue-rotate(340deg) brightness(93%) contrast(104%);
 }
