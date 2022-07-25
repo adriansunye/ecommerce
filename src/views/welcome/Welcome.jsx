@@ -1,8 +1,14 @@
 import React from 'react';
+import { About, Footer, Header } from '../../container';
 import '../welcome/welcome.scss';
 
-export const Welcome = () => {
+function Welcome() {
   return (
-    <div>Welcome</div>
+    <>
+      <Header />
+      <About />
+      <Footer />
+    </>
   )
 }
+export default Welcome;

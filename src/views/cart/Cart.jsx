@@ -1,8 +1,9 @@
 import React from 'react';
 import '../cart/cart.scss'
 
-export const Cart = () => {
+function Cart() {
   return (
     <div>Cart</div>
   )
 }
+export default Cart;

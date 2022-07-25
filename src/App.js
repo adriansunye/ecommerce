@@ -1,14 +1,18 @@
-
 import './App.css';
-import {Inicio} from './views/inicio/Inicio'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Navbar from './components/navbar/Navbar';
+import React from 'react';
+import Welcome from './views/welcome/Welcome';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Aquí vienen las views</h1>
-      <Inicio/>
 
+    <div className="app">
+      <Navbar/>
+      <Welcome/>
     </div>
+
   );
 }
 

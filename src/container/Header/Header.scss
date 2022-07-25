@@ -1,0 +1,77 @@
+
+.Wellcome{
+ background: url('https://s.libertaddigital.com/2020/02/05/1920/1080/fit/market-shop-plant.jpg');
+ background-size: cover;
+ min-height:100vh;
+ background-attachment: fixed;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+}
+.TextIntro{
+    font-size:60px;
+}
+h1::first-letter{
+    font-size: 5rem;
+    color: #CA2128;
+  }
+
+.ParagraphWell{
+    font-family: 'Source Sans Pro';
+    font-size: 30px;
+    max-inline-size: fit-content;
+}
+.TextGeneral{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background:rgba(255, 255, 255, 0.723);
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    margin: 26px 10px 160px 10px;
+}
+
+.button2 {
+    border: solid 2px rgb(209, 85, 85);
+    background:#CA2128;
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+    align-self: center;
+    font-size: 20px;
+    font-weight: 200;
+    margin: 20px;
+    padding: 10px 40px;
+    text-align: center;
+    color: aliceblue;
+    font-family:'Source Sans Pro' ;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button2:hover {
+    transition: ease-in 0.7s;
+    box-shadow: inset 300px 0 0 0 rgb(255, 255, 255);
+    cursor: pointer;
+    color: rgb(11, 11, 15);
+}
+
+.wave{
+    height: 120px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+svg{
+    height: 100%;
+    width: 100%;
+    
+}
+path{
+    stroke: none; 
+    fill: #BFBFBF;
+    
+}
