@@ -19,31 +19,31 @@ function Form(){
   };
 
   return (
-    <div class="contact-us">
+    <div className="contact-us">
     <form ref={form} onSubmit={sendEmail}>
-      <h1 class="d-flex justify-content-center">
+      <h1 className="d-flex justify-content-center">
         Atención al cliente
         </h1>
-      <div class="form-group">
+      <div className="form-group">
         <label>Nombre</label>
-        <input type="name" class="form-control" id="user_name" />
+        <input type="name" className="form-control" id="user_name" />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label>Apellido</label>
-        <input type="last-name" class="form-control" id="user_lastname" />
+        <input type="last-name" className="form-control" id="user_lastname" />
       </div>
-      <div class="form-group">
+      <div className="form-group">
         <label>Email</label>
-        <input type="email" class="form-control" placeholder="name@example.com"/>
+        <input type="email" className="form-control" placeholder="name@example.com"/>
       </div>  
-      <div class="form-group">
+      <div className="form-group">
         <label>Mensaje</label>
-        <textarea class="form-control" rows="3"/>
+        <textarea className="form-control" rows="3"/>
         <br></br>  
       </div>
-      <div class="form-group d-flex justify-content-center" >
-        <button  type="button" class="btn btn-danger">  
-           <input class= "buttonSend d-flex align-self-center" value="Enviar" />
+      <div className="form-group d-flex justify-content-center" >
+        <button  type="button" className="btn btn-danger">  
+           <input className= "buttonSend d-flex align-self-center" value="Enviar" />
         </button>  
       </div>
     </form>

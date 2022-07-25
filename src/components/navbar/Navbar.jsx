@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.scss';
+import './navbar.scss';
 import logo from '../../assets/Images/dillons-logo.png';
 
 function Navbar() {
@@ -16,147 +16,147 @@ function Navbar() {
           <img src={logo} alt="Logo" width="100vw" />
         </a>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <form class="form-inline mx-auto my-2 my-lg-0">
-            <input class="form-control mx-sm-2" type="search" placeholder="Buscar productos" aria-label="Search"></input>
+          <form className="form-inline mx-auto my-2 my-lg-0">
+            <input className="form-control mx-sm-2" type="search" placeholder="Buscar productos" aria-label="Search"></input>
           </form>
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown">
+              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Categorías
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li class="nav-item dropdown-item">
-                  <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="fa-solid fa-bottle-droplet"></i>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li className="nav-item dropdown-item">
+                  <a className="dropdown-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i className="fa-solid fa-bottle-droplet"></i>
                     Aceite, especias y salsas
                   </a>
-                  <ul class="submenu dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Aperitivos</a></li>
+                  <ul className="submenu dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a className="dropdown-item" href="#">Aperitivos</a></li>
                   </ul>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-bottle-water"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-bottle-water"></i>
                   Agua y refrescos</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-cookie"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-cookie"></i>
                   Aperitivos</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-bowl-rice"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-bowl-rice"></i>
                   Arroz, legumbres y pasta</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-candy-cane"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-candy-cane"></i>
                   Azúcar, caramelos y chocolate</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-baby-carriage"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-baby-carriage"></i>
                   Bebé</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-wine-glass"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-wine-glass"></i>
                   Bodega</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-mug-hot"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-mug-hot"></i>
                   Cacao, café e infusiones</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-bacon"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-bacon"></i>
                   Carne</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-wheat-awn"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-wheat-awn"></i>
                   Cereales y galletas</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-cheese"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-cheese"></i>
                   Charcutería y quesos</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-icicles"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-icicles"></i>
                   Congelados</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-jar"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-jar"></i>
                   Conservas, caldos y cremas</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-shower"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-shower"></i>
                   Cuidado del cabello</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                    <i class="fa-solid fa-spray-can-sparkles"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                    <i className="fa-solid fa-spray-can-sparkles"></i>
                     Cuidado facial y corporal</a>
                   </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-prescription-bottle-medical"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-prescription-bottle-medical"></i>
                   Fitoterapia y parafarmacia</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-apple-whole"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-apple-whole"></i>
                   Fruta y verdura</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-egg"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-egg"></i>
                   Huevos, leche y mantequilla</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-broom"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-broom"></i>
                   Limpieza y hogar</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-mars-stroke-up"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-mars-stroke-up"></i>
                   Maquillaje</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-fish"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-fish"></i>
                   Marisco y pescado</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                <i class="fa-solid fa-paw"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                <i className="fa-solid fa-paw"></i>
                   Mascotas</a></li>
-                  <li><hr class="dropdown-divider"></hr>
+                  <li><hr className="dropdown-divider"></hr>
                 </li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-cake-candles"></i>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-cake-candles"></i>
                   Panadería y pastelería</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-pizza-slice"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-pizza-slice"></i>
                   Pizzas y platos preparados</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-ice-cream"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-ice-cream"></i>
                   Postres y yogures</a>
                 </li>
-                <li><hr class="dropdown-divider"></hr></li>
-                <li><a class="dropdown-item" href="#">
-                  <i class="fa-solid fa-whiskey-glass"></i>
+                <li><hr className="dropdown-divider"></hr></li>
+                <li><a className="dropdown-item" href="#">
+                  <i className="fa-solid fa-whiskey-glass"></i>
                   Zumos</a>
                 </li>
                </ul>
