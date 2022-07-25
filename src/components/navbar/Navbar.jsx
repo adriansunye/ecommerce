@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.scss';
 import logo from '../../assets/Images/dillons-logo.png';
 
-export const Navbar = () => {
+const Navbar = () => {
 
   return (
     <nav id="navbar" className="navbar navbar-expand-lg">
@@ -176,3 +176,5 @@ export const Navbar = () => {
     </nav>
   );
 }
+
+export default Navbar;

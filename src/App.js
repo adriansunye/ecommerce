@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-import {Navbar} from './components/navbar/Navbar';
+import Navbar from './components/navbar/Navbar';
 
 const App = () => {
   return (
