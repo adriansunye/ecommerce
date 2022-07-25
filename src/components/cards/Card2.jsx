@@ -4,13 +4,14 @@ import { MdDeleteForever } from "react-icons/md";
 import { BiMinus } from "react-icons/bi";
 import { GrAdd } from "react-icons/gr";
 
-const Card2 = ({ cartItem, addToCart, productItems }) => {
-    const [count, setCount] = useState(1)
+const Card2 = ({ cartItem, addToCart, decreaseQty }) => {
+    const totalPrice = cartItem.reduce((price, item) => price + item.qty * item.price, 0)
+    // const [count, setCount] = useState(1)
     return (
         <div className="G-container">
             <div>
                 <h1><b>Cart</b></h1>
-                <h7>Envío a CP. 08035</h7>
+                <h6>Envío a CP. 08035</h6>
                 <h6><b>Productos agregados</b></h6>
             </div>
             <div>
@@ -27,23 +28,35 @@ const Card2 = ({ cartItem, addToCart, productItems }) => {
                             </div>
                             <div className="cont-text">
                                 <h3 className="cont-text-1">{item.name}</h3>
-                                <h3 className="cont-text-2"><b>{item.price} EUR*</b></h3>
+                                <h3 className="cont-text-2"><b>{item.price} €*</b></h3>
                                 <h4>
-                                    {item.price}.00 Euros
+                                    {item.price}.00 €
                                     * {item.qty}
-                                    <span>${prodcutQty}.00</span>
+                                    
                                 </h4>
+                                <span>€{prodcutQty}.00</span>
                             </div>
                             <div className="cont-btn">
-                                <h5 className="cont-btn-text">{count} ud.</h5>
+                                <h5 className="cont-btn-text">{item.qty} ud.</h5>
                                 <div className="cont-btn-click">
-                                    <a href="" className="btn-1"><BiMinus className="btn-del" onClick={() => setCount(count - 1)} /></a>
-                                    <a href="" className="btn-2"><GrAdd className="btn-add" onClick={() => setCount(count + 1) && addToCart(productItems)} /></a>
+                                    <a href="#" className="btn-1"><BiMinus className="btn-del" onClick={() => decreaseQty(item)} /></a>
+                                    <a href="#" className="btn-2"><GrAdd className="btn-add" onClick={() => addToCart(item)} /></a>
                                 </div>
                             </div>
+
                         </div>
                     )
-                })}</div>
+                })}
+                <div className="cart-item-price">
+                    <div className="cart-total product">
+                        <h2>Resumen de Compra</h2>
+                        <div className="d_flex">
+                            <h4>Precio total</h4>
+                            <h3>€{totalPrice}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     )

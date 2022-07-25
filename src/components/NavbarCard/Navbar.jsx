@@ -6,6 +6,9 @@ import { Link } from "react-router-dom";
 
 
 const Navbar = ({ cartItem }) => {
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector()
+  })
   
  
   return (

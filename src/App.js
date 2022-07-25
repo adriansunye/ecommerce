@@ -1,7 +1,4 @@
-
-
-
-import CardGroup from '../src/components/cards/Cardgroup'
+import CardGroup from "../src/components/cards/Cardgroup";
 
 function App() {
   return (

@@ -23,6 +23,10 @@ const Cart = ({ cartItem, addToCart }) => {
                                             <span>${prodcutQty}.00</span>
                                         </h4>
                                     </div>
+                                    <div className="cont-btn-click">
+                                    <a href="" className="btn-1"><BiMinus className="btn-del" onClick={() => decreaseQty(item)} /></a>
+                                    <a href="" className="btn-2"><GrAdd className="btn-add" onClick={() => addToCart(item)} /></a>
+                                </div>
                                 </div>
                             )
                         })}

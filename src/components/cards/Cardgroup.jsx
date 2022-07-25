@@ -7,6 +7,8 @@ import Card1 from "./Card1";
 import Card2 from "./Card2";
 
 function Cardgroup() {
+    // step 1: fetch data from database
+
     const { productItems } = Data
 
     const [cartItem, setCardItem] = useState([])
@@ -31,10 +33,10 @@ function Cardgroup() {
           <Navbar cartItem={cartItem} />
           <Switch>
             <Route path='/' exact>
-              <Card1 productItems={productItems} addToCart={addToCart} />
+              <Card1 productItems={productItems} addToCart={addToCart} cartItem={cartItem}/>
             </Route>
             <Route path='/cart' exact>
-              <Card2 cartItem={cartItem}  productItems={productItems}/>
+              <Card2 cartItem={cartItem}  productItems={productItems} addToCart={addToCart} />
             </Route>
           </Switch>
         </Router>
