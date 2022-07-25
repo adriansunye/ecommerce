@@ -5,7 +5,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 
-const Navbarcart = ({ cartItem }) => {
+function Navbarcart  ({ cartItem })  {
   // window.addEventListener("scroll", function () {
   //   const navbar = document.querySelector()
   // })

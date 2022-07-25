@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import "./card2.css";
-import { MdDeleteForever } from "react-icons/md";
 import { BiMinus } from "react-icons/bi";
 import { GrAdd } from "react-icons/gr";
 
-const Card2 = ({ cartItem, addToCart, decreaseQty }) => {
+function Card2({ cartItem, addToCart, decreaseQty }) {
     const totalPrice = cartItem.reduce((price, item) => price + item.qty * item.price, 0)
-    // const [count, setCount] = useState(1)
+
     return (
         <div className="G-container">
             <div>
@@ -32,7 +31,7 @@ const Card2 = ({ cartItem, addToCart, decreaseQty }) => {
                                 <h4>
                                     {item.price}.00 €
                                     * {item.qty}
-                                    
+
                                 </h4>
                                 <span>€{prodcutQty}.00</span>
                             </div>
@@ -51,7 +50,7 @@ const Card2 = ({ cartItem, addToCart, decreaseQty }) => {
                     <div className="cart-total product">
                         <h2>Resumen de Compra</h2>
                         <div className="d_flex">
-                            <h4>Precio total</h4>
+                            <h4>Precio total</h4> 
                             <h3>€{totalPrice}</h3>
                         </div>
                     </div>

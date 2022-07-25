@@ -25,6 +25,15 @@ function Cardgroup() {
         setCardItem([...cartItem, { ...product, qty: 1 }])
       }
     }
+
+    const decreaseQty = (product) => {
+      const productExit = cartItem.find((item) => item.id === product.id)
+      if (productExit.qty === 1){
+        setCardItem(cartItem.filter((item) => item.id !== product.id))
+      }else {
+        setCardItem(cartItem.map((item) => (item.id === product.id? { ...productExit, qty: productExit.qty-1}:item)))
+      }
+    }
   
   
     return (
@@ -37,7 +46,7 @@ function Cardgroup() {
               <Card1 productItems={productItems} addToCart={addToCart} cartItem={cartItem}/>
             </Route>
             <Route path='/cart' exact>
-              <Card2 cartItem={cartItem}  productItems={productItems} addToCart={addToCart} />
+              <Card2 cartItem={cartItem}  productItems={productItems} addToCart={addToCart} decreaseQty={decreaseQty}/>
             </Route>
           </Switch>
         </Router>
