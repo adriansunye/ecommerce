@@ -1,0 +1,32 @@
+h1 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size-adjust: width;
+	color: #CA2128;
+	
+}
+
+form{
+	margin: 15%;
+	justify-content: center !important;
+}
+
+.buttonSend{
+	background-color: #CA2128;
+	font-family: sans-serif !important;
+	color: white;
+	justify-items: center;
+	border: none;
+
+}
+
+.btn-danger{
+	background-color: #CA2128 !important;
+	justify-items: center;
+	
+	
+}
+
+.form-control{
+	background-color: #EDEDED !important;
+}
+

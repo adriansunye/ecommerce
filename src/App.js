@@ -5,7 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import React from 'react';
 import Welcome from './views/welcome/Welcome';
 
-const App = () => {
+function App() {
   return (
 
     <div className="app">
