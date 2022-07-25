@@ -3,7 +3,7 @@ import './App.css';
 import { Header,About, Footer } from './container';
 import { Navbar } from './components';
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 import './App.css';
