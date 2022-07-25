@@ -1,15 +1,13 @@
 import './App.css';
-import { Header,About, Products, Footer } from './container';
-import { Navbar } from './components';
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import {Navbar} from './components/navbar/Navbar';
 
 const App = () => {
   return (
     <div className="app">
-      <Navbar />
-      <Header />
-      <About />
-      <Footer />
+      <Navbar/>
     </div>
   );
 }
