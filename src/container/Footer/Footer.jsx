@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.scss';
-import Dillons from '../../../src/img/dillons.png';
+import Dillons from '../../assets/Images/dillons-logo.png'
 
-const Footer = () => {
+function Footer() {
   return (
     <footer class="footer-pag">
         <div class="grup-1">

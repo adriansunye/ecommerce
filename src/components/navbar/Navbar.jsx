@@ -2,7 +2,7 @@ import React from 'react';
 import './Navbar.scss';
 import logo from '../../assets/Images/dillons-logo.png';
 
-const Navbar = () => {
+function Navbar() {
 
   return (
     <nav id="navbar" className="navbar navbar-expand-lg">

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Products.scss';
 
-const Products = () => {
+function Products() {
   return (
     <div>Products</div>
   );
