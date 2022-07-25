@@ -1,15 +1,13 @@
-import React from "react";
-import Cardgroup from "./components/cards/Cardgroup";
 
 
 
+import CardGroup from '../src/components/cards/Cardgroup'
 
 function App() {
- 
   return (
-    <div className="app">
-
-      <Cardgroup/>
+    <div className="App">
+      {/* <h1>Aquí vienen las views</h1> */}
+      <CardGroup/>
 
     </div>
   );
