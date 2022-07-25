@@ -1,12 +1,11 @@
 import './App.css';
-import { Header,About, Products, Footer } from './container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import Navbar from './components/Navbar/Navbar';
 import React from 'react';
 import Welcome from './views/welcome/Welcome';
 
-function App() {
+const App = () => {
   return (
 
     <div className="app">
