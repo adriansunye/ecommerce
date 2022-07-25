@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap');
+
+.container {
+    min-height: 100vh;
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1vh;
+    font-family: 'Inter', sans-serif;
+    margin-top: 1vh;
+}
+
+.card {
+    width: 20vh;
+    height: 35vh;
+    border: 0.1vh solid rgb(249, 245, 245);
+    
+    
+}
+
+img {
+    height: 10vh;
+    width: 10vh;
+    
+    
+}
+.row-img{
+    width: 15vh;
+    display: flex;
+    align-self: center;
+    border: 0.1vh solid rgb(178, 178, 178);
+    
+}
+
+.card-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 2vh;
+    color: #000000;
+}
+
+.card-text1 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 1.4vh;
+    line-height: 0.8vh;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.card-text2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vh;
+    line-height: 2vh;
+    color: #050505;
+}
+
+.a.btn {
+    background: #FFFFFF;
+    border: 0.1vh solid #CA2128;
+    box-shadow: 0vh 0vh 0vh rgba(0, 0, 0, 0.25);
+    border-radius: 3vh;
+    width: 15vh;
+    height: 3vh;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5vh;    
+    color: #CA2128;
+    text-align: center;
+    align-content: center;
+}
