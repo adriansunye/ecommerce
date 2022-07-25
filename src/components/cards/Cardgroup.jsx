@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import Data from "../cards/Data"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Navbar from "../NavbarCard/Navbar"
+import Navbarcart from "../NavbarCard/Navbarcart"
 import Card1 from "./Card1";
 
 import Card2 from "./Card2";
+
 
 function Cardgroup() {
     // step 1: fetch data from database
@@ -30,7 +31,7 @@ function Cardgroup() {
       <div className="app">
   
         <Router>
-          <Navbar cartItem={cartItem} />
+          <Navbarcart cartItem={cartItem} />
           <Switch>
             <Route path='/' exact>
               <Card1 productItems={productItems} addToCart={addToCart} cartItem={cartItem}/>

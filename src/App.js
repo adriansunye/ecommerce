@@ -1,15 +1,23 @@
-import CardGroup from "../src/components/cards/Cardgroup";
+import React from "react"
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Cardgroup from "./components/cards/Cardgroup"
+// import Navbar from "../src/components/navbar/Navbar"
 
-function App() {
+
+function App () {
   return (
     <div className="App">
-      {/* <h1>Aquí vienen las views</h1> */}
-      <CardGroup/>
+
+        <Cardgroup/>
 
     </div>
-  );
+
+  )
 }
 
 export default App;
+
+
 
 

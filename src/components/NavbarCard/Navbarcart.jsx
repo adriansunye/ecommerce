@@ -5,10 +5,10 @@ import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 
-const Navbar = ({ cartItem }) => {
-  window.addEventListener("scroll", function () {
-    const navbar = document.querySelector()
-  })
+const Navbarcart = ({ cartItem }) => {
+  // window.addEventListener("scroll", function () {
+  //   const navbar = document.querySelector()
+  // })
   
  
   return (
@@ -28,4 +28,4 @@ const Navbar = ({ cartItem }) => {
   );
 }
 
-export default Navbar;
+export default Navbarcart;
