@@ -1,5 +1,5 @@
 
-import Call from './functions/Call';
+
 import './App.css';
 import { Header,About, Products, Footer } from './container';
 import { Navbar } from './components';
@@ -14,7 +14,7 @@ const App = () => {
       <About/>
       <Footer/>
       <Products/> 
-      <Call/>
+     
     </div>
 
    
