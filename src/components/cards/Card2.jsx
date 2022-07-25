@@ -37,8 +37,8 @@ const Card2 = ({ cartItem, addToCart, productItems }) => {
                             <div className="cont-btn">
                                 <h5 className="cont-btn-text">{count} ud.</h5>
                                 <div className="cont-btn-click">
-                                    <a href="" className="btn-1"><BiMinus className="btn-del" onClick={() => setCount(count - 1)} /></a>
-                                    <a href="" className="btn-2"><GrAdd className="btn-add" onClick={() => setCount(count + 1) && addToCart(productItems)} /></a>
+                                    <a href="#" className="btn-1"><BiMinus className="btn-del" onClick={() => setCount(count - 1)} /></a>
+                                    <a href="#" className="btn-2"><GrAdd className="btn-add" onClick={() => addToCart(productItems)} /></a>
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,43 @@
+.row {
+    row-gap: 44px;
+}
+
+.producto {
+    display: flex;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 1.15rem;
+    background-color: rgb(209 226 255 / 30%);
+    border: 0;
+}
+
+.producto img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto .title {
+    font-weight: bold;
+}
+
+.producto .price {
+    font-size: x-large;
+    font-weight: bold;
+    color: #079F16;
+}
+
+.body {
+    width: 100%;
+}
+
+.cart {
+    background-color: #EDF2F4;
+    padding: 10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 9px;
+    position: absolute;
+    bottom: -28px;
+    border: 2px solid #D1E2FF;
+}
