@@ -1,13 +1,15 @@
-
 import './App.css';
-import {Inicio} from './views/inicio/Inicio'
+import { Header,About, Products, Footer } from './container';
+import { Navbar } from './components';
+import React from 'react';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <h1>Aquí vienen las views</h1>
-      <Inicio/>
-
+    <div className="app">
+      <Navbar />
+      <Header />
+      <About />
+      <Footer />
     </div>
   );
 }
