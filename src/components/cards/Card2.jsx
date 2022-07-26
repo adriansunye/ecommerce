@@ -15,7 +15,7 @@ function Card2({ cartItem, addToCart, decreaseQty }) {
             </div>
             <div>
 
-                {cartItem.length === 0 && <h1 className="no-items product">No hayproductos en el carrito</h1>}
+                {cartItem.length === 0 && <h4 className="no-items product">No hay productos en el carrito</h4>}
 
 
                 {cartItem.map((item) => {
