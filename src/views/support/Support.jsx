@@ -1,8 +1,9 @@
 import React from 'react';
 import '../support/support.scss';
 
-export const Support = () => {
+function Support() {
   return (
     <div>Support</div>
   )
 }
+export default Support;
