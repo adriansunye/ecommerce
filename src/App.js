@@ -1,20 +1,23 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
-import Navbar from './components/navbar/Navbar';
-import React from 'react';
-import Welcome from './views/welcome/Welcome';
+import React from "react"
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
+import Cardgroup from "./components/cards/Cardgroup"
+// import Navbar from "../src/components/navbar/Navbar"
 
-function App() {
- 
+
+function App () {
   return (
+    <div className="App">
 
-    <div className="app">
-      <Navbar/>
-      <Welcome/>
+        <Cardgroup/>
+
     </div>
 
-  );
+  )
 }
 
 export default App;
+
+
+
+

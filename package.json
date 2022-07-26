@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "@popperjs/core": "^2.11.5",
     "@react-icons/all-files": "^4.1.0",
 =======
@@ -11,6 +12,13 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
 >>>>>>> 903dfd023b64f07732cd9299722979cb7f571f02
+=======
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@popperjs/core": "^2.11.5",
+    "@react-icons/all-files": "^4.1.0",
+>>>>>>> 94b266f4a7e4f8a8255bf86cc49f65165345f161
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -25,15 +33,22 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
     "react-bootstrap-icons": "^1.8.4",
+<<<<<<< HEAD
 >>>>>>> 903dfd023b64f07732cd9299722979cb7f571f02
+=======
+>>>>>>> 94b266f4a7e4f8a8255bf86cc49f65165345f161
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^5.3.3",
     "react-scripts": "5.0.1",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "sass": "^1.54.0",
 >>>>>>> 903dfd023b64f07732cd9299722979cb7f571f02
+=======
+    "sass": "^1.54.0",
+>>>>>>> 94b266f4a7e4f8a8255bf86cc49f65165345f161
     "serve": "^13.0.4",
     "web-vitals": "^2.1.4"
   },
@@ -60,5 +75,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.0"
   }
 }

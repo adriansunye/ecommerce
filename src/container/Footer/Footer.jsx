@@ -1,5 +1,6 @@
 import React from 'react';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 const Footer = () => {
@@ -7,10 +8,16 @@ const Footer = () => {
     <div>Footer</div>
   );
 =======
+=======
+>>>>>>> 94b266f4a7e4f8a8255bf86cc49f65165345f161
 import './Footer.scss';
 import Dillons from '../../assets/Images/dillons-logo.png'
 
+<<<<<<< HEAD
 function Footer() {
+=======
+const Footer = () => {
+>>>>>>> 94b266f4a7e4f8a8255bf86cc49f65165345f161
     return (
         <footer class="footer-pag">
             <div class="grup-1">
@@ -48,7 +55,10 @@ function Footer() {
             </div>
         </footer>
     );
+<<<<<<< HEAD
 >>>>>>> 903dfd023b64f07732cd9299722979cb7f571f02
+=======
+>>>>>>> 94b266f4a7e4f8a8255bf86cc49f65165345f161
 }
 
 export default Footer;

@@ -1,19 +1,49 @@
 .navbar {
-    width: 43vh;
-    height: 10vh;
-    border-bottom: 0.1vh solid black;
-}
-
-.btn-cart {
-    width: 6vh;
-    height: 4.5vh;
-    filter: invert(12%) sepia(96%) saturate(3878%) hue-rotate(340deg) brightness(93%) contrast(104%);
+    width: 100%;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    border-bottom: 0.2vh solid rgba(209, 198, 198, 0.581);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
 }
 .btn-hamb {
-    width: 6vh;
-    height: 4.5vh;
+    width: 15%;
+    height: 3%;
     filter: invert(22%) sepia(46%) saturate(3878%) hue-rotate(340deg) brightness(93%) contrast(104%);
 }
-.number-cart{
+.input{
+    width: 60%;
+    height: 35px;
+    border: 0.2vh solid rgba(209, 198, 198, 0.581);
+    border-radius: 5px;
+}
+.cart{
+    position: relative;
+}
+.navbar .cart span{
+    position: absolute;
+    top: -10px;
+    right: -40px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    justify-self: center;
+    background-color: rgb(216, 8, 8);
+    color: aliceblue;
+}
+.btn-cart {
+    width: 230%;
+    height: 63%;
     filter: invert(12%) sepia(96%) saturate(3878%) hue-rotate(340deg) brightness(93%) contrast(104%);
 }
+/* 
+
+.number-cart{
+    
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 0px;
+    font-size: 20px;
+} */

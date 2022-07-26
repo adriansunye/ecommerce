@@ -1,23 +1,27 @@
 import React from "react";
-import "./navbar.css";
+import "./Navbarcard.scss"
+
 import { MdMenu } from "react-icons/md";
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 
-const Navbar = ({ cartItem }) => {
-  
- 
+function Navbarcart({ cartItem }) {
+  // window.addEventListener("scroll", function () {
+  //   const navbar = document.querySelector()
+  // })
+
+
   return (
     <div className="navbar">
       <MdMenu className="btn-hamb" />
-      <input type="textcategories" />
+      <input type="textcategories" className="input" />
+
       <div className="cart">
         <Link to="/cart">
           <FaShoppingCart className="btn-cart" />
-          <span className="number-cart">{cartItem.length === 0 ? "" : cartItem.length}</span>
+          <b><span className="number-cart">{cartItem.length === {} ? "" : cartItem.length}</span></b>
         </Link>
-
       </div>
 
 
@@ -25,4 +29,4 @@ const Navbar = ({ cartItem }) => {
   );
 }
 
-export default Navbar;
+export default Navbarcart;

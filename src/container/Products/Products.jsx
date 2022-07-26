@@ -1,6 +1,10 @@
 import React from 'react';
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+import './Products.scss';
+>>>>>>> 94b266f4a7e4f8a8255bf86cc49f65165345f161
 
 const Products = () => {
 =======

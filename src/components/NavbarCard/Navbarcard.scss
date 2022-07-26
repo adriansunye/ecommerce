@@ -1,0 +1,46 @@
+.navbar {
+    width: 100%;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+    border-bottom: 0.2vh solid rgba(209, 198, 198, 0.581);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .btn-hamb {
+        width: 15%;
+        height: 3%;
+        filter: invert(22%) sepia(46%) saturate(3878%) hue-rotate(340deg) brightness(93%) contrast(104%);
+    }
+
+    .input {
+        width: 60%;
+        height: 35px;
+        border: 0.2vh solid rgba(209, 198, 198, 0.581);
+        border-radius: 5px;
+    }
+
+    .cart {
+        position: relative;
+
+        .btn-cart {
+            width: 230%;
+            height: 63%;
+            filter: invert(12%) sepia(96%) saturate(3878%) hue-rotate(340deg) brightness(93%) contrast(104%);
+        }
+
+        .number-cart {
+            position: absolute;
+            top: -10px;
+            right: -40px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            text-align: center;
+            text-decoration: none;
+            justify-self: center;
+            background-color: rgb(216, 8, 8);
+            color: aliceblue;
+        }
+    }
+}
